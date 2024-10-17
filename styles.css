@@ -319,6 +319,9 @@ i{
     align-items: center;
     border-radius: 14px;
     padding: 1rem;
+
+    box-shadow: 2px 0px 14px 1px rgba(60, 60, 60, 0.64) !important; 
+
 }
 .contactinput{
     width: 69%;
