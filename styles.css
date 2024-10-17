@@ -1,0 +1,381 @@
+:root{
+    --mainColor: #f6ebda;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f6ebda;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+     width: 100%;
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: 200;
+     box-shadow: 1px 2px 4px -1px rgba(60, 60, 60, 0.64);
+     background-color:var(--mainColor) ;
+}
+.navText{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
+.shop{
+    width: 60px;
+}
+a{
+    cursor: pointer;
+}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+}
+.hero{
+    height: 100vh;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.orderBtn{
+    cursor: pointer;
+    background-color: #2F2105;
+    padding: 12px 56px;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.space{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.spaceImg{
+    position: absolute;
+    z-index: 0;
+}
+
+.spaceText{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.spaceInput{
+    width: 586px;
+    height: 54px;
+}
+
+.spaceOrder{
+    width: 138px;
+    height: 44px;
+    background-color: #2f2105;
+    color: white;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 4rem;
+    height: 50vh !important;
+    position: relative;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+.aboutimg{
+    border: 4px solid white;
+    border-radius: 20px;
+
+    width: 100%;
+    object-fit: cover;
+}
+ 
+.aboutImgContainer{
+    margin-bottom: 4rem;
+    height: 50vh !important;
+    position: relative;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 4rem;
+ 
+    position: relative;
+ 
+    width: 250px;
+    height: 340px;
+
+}
+.description{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+
+    align-items: start;
+}
+
+
+.echProduit{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+}
+/* shop product */
+.shopimg{
+    width: 307px;
+    height: 226px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.shopBox{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    justify-content: center;
+    position: relative;
+    gap: 3rem;
+}
+.coffe1{
+    z-index: 12;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -113px;
+    width: 300px;
+    padding: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.navActive{
+    color: #e2955a;
+    border-bottom: 2px solid #e2955a;
+}
+.galleryBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.gallery{
+    padding-top: 7rem;
+    background-color: white;
+    padding-bottom: 7rem;
+}
+.galleryBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.galleryMiniBox{
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.galleryMbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.galleryMbox{
+
+}
+.galleryimg{
+    width: 100px;
+
+}
+.produitImg{
+    width: 100%;
+     object-fit: cover;
+    height: 100%;
+    border-radius: 13px;
+}
+.produitBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.pBox{
+    background-color: white;
+    border-radius: 17px;
+    padding: 1rem;
+    width: 340px;
+    height: 385px;
+    box-shadow: 2px 0px 14px 1px rgba(60, 60, 60, 0.64);
+}
+.pBox:hover{
+    transform: rotate(1deg);
+    cursor: pointer;
+}
+.imgBox{
+    overflow: hidden;
+    height: 250px;
+}
+.produitText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produitText p{
+    color: gray;
+    font-weight: 600;
+}
+.pnameBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+i{
+    font-size: 1.5rem;
+    color: #e2955a;
+    cursor: pointer;
+}
+
+.title{
+    width: 500px;
+    margin: auto;
+    padding-top: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+/* contact  */
+.contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxContact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.contactinput{
+    width: 69%;
+    border: none;
+    background-color: #f6f6f6f6;
+    padding: 8px;
+    border-radius: 2px;
+
+}
+
+.bouttonContact{
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+}
+.bouttonContact:hover{
+    background-color: black;
+    color: #f6f6f6;
+    transition: 0.4s;
+}
+/* responsive */
+
+
+/* 768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... } */
+
+@media only screen and (max-width: 768px) {
+    .hero{flex-direction: column;
+        gap: 0px;}
+    .heroImg{
+        display: none;
+    }
+    .shopBox{
+        flex-wrap: wrap;
+    }
+    .echimg{
+        display: none;
+    }
+    .spaceInput{
+            width: 386px;
+    }
+    .spaceOrder{
+        right: 12% !important;    }
+    .spaceImg{
+        width: 100%;
+    }
+    .cup{
+        display: none;
+    }
+    .spaceInput{
+        width: 71%;
+    }
+ 
+}
+
+
+
