@@ -305,6 +305,8 @@ i{
     justify-content: center;
     align-items: center;
 
+
+
 }
 .boxContact{
     display: flex;
@@ -374,7 +376,6 @@ xl	1280px	@media (min-width: 1280px) { ... } */
     .spaceInput{
         width: 71%;
     }
- 
 }
 
 
